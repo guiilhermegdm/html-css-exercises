@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Romanica';
+    src: url('fonts/Romanica.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Romanus';
+    src: url('fonts/ROMANUS.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal; 
+}
+
+
+body {
+ font-family: 'Romanus', sans-serif;
+ background-color: black;
+ color: aliceblue;
+}
+h1, h2 {
+    color: aliceblue;
+    text-decoration: underline;
+    font-family: 'Romanica', serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 3em;
+}

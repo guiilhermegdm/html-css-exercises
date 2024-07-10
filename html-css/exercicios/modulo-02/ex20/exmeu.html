@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclasse</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        div > p {
+            display: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        div:hover > p {
+            display: block;
+            color: blue;
+           background-color: gray;
+           width: 200px;
+           opacity: 1;
+        }
+
+        div:hover span {
+    color: blueviolet;
+    background-color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Pseudoclasses</h1>
+    <p>Passa o mouse na frase abaixo</p>
+    <div>
+        <span>Passe o mouse aqui</span>
+        <p>Texto escondido...</p>
+    </div>
+    <p>Fim do exemplo</p>
+</body>
+</html>

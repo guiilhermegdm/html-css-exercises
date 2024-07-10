@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: black;
+    color: rgb(16, 223, 16);
+}
+
+h1 {
+    color: aqua;
+}
+
+h2, h3 {
+    color: blue;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aliceblue;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: greenyellow;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+div > p {
+   display: none;
+}
+
+div:hover > p {
+    display: block;
+    color: greenyellow;
+    text-decoration: underline;
+}
